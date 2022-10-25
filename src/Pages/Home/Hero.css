@@ -1,0 +1,36 @@
+.hero {
+    padding-top: 10rem;
+    /* padding: 0px 20px; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero h3{
+    color: white;
+    font-size: 5rem;
+    padding: 50px 20px 50px 0px;
+}
+.lists {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 30px;
+}
+
+.button {
+    background-color: white;
+    color: rgb(222, 66, 66);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    border: 1px solid black;
+}

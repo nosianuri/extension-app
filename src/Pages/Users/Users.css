@@ -1,0 +1,92 @@
+.user-container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(222, 66, 66);
+    background: linear-gradient(
+        90deg,
+        rgba(222, 66, 66, 1) 0%,
+        rgba(212, 32, 32, 1) 94%
+    );
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 8rem;
+}
+
+/* .user-table{
+    border: 1px solid white;
+    color: white;
+    padding: 50px;
+    
+} */
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 20px;
+    color: rgb(10, 10, 10);
+  }
+  
+  th {
+    background-color: rgba(222, 66, 66, 1);
+  }
+  
+  td {
+    background-color: rgb(244, 90, 90);
+  }
+  
+  form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  h2{
+    color: white;
+  }
+
+  .adduser{
+    margin-top: 30px;
+  }
+
+  .add-button{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid white;
+  }
+
+  button{
+    cursor: pointer;
+  }
+
+  .pagination{
+    margin-top: 10px;
+  }
+
+  .pagination .selected{
+    background-color: rgb(80, 80, 238);
+    color: white;
+  }
+
+  .pagination button{
+    margin-right: 30px;
+    background-color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 3px;
+  }

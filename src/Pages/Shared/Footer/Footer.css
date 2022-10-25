@@ -1,0 +1,23 @@
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 30px 30px 30px 30px;
+}
+.path-link, .icon{
+    display: flex;
+    grid-gap: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.icon .fa:hover{
+    color: white;
+}
+
