@@ -40,12 +40,14 @@ const Attendance = () => {
             </tr>
           </thead>
           <tbody>
-          {users.map((userlist) => (
+          {users.map((userlist, index) => (
               <tr>
-                <td>{userlist._id}</td>
+                <td>{index + 1}</td>
                 <td>{userlist.name}</td>
                 <td>{userlist.email}</td>
-                
+                <td>
+                  {}
+                </td>
               </tr>
             ))}
 

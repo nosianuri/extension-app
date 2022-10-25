@@ -140,7 +140,7 @@ const Users = () => {
             </tr>
           </thead>
           <tbody>
-            {users.map((userlist) => (
+            {users.map((userlist, index) => (
               <Fragment>
                 {edituserId === userlist._id ? (<UserEditable key={userlist._id} editFormData={editFormData} handleEditFormChange={handleEditFormChange} handleCancleClick={handleCancleClick} />
                 ) : (
