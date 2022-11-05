@@ -21,4 +21,4 @@ const UserEditable = ({ editFormData, handleEditFormChange, handleCancleClick}) 
     )
 }
 
-export default UserEditable
+export default UserEditable;

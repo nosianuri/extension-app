@@ -21,3 +21,9 @@ footer{
     color: white;
 }
 
+@media (max-width: 800px) {
+    footer{
+        font-size: 1rem;
+        padding: 30px 10px 30px 10px;
+    }
+}
