@@ -14,4 +14,4 @@ const UserRow = ({ userlist, handleEditClick, handleDeleteClick }) => {
     )
 }
 
-export default UserRow
+export default UserRow;

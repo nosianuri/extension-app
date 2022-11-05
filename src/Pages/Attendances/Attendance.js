@@ -15,6 +15,8 @@ const Attendance = () => {
       .then(data => setUsers(data));
     }, [page, size]);
 
+    const [attendanceUserId, setAttendanceUserId] = useState(null);
+
     useEffect( () =>{
       fetch('https://powerful-garden-89346.herokuapp.com/userCount')
       .then(res => res.json())
@@ -40,15 +42,12 @@ const Attendance = () => {
             </tr>
           </thead>
           <tbody>
-          {users.map((userlist, index) => (
-              <tr>
-                <td>{index + 1}</td>
-                <td>{userlist.name}</td>
-                <td>{userlist.email}</td>
-                <td>
-                  {}
-                </td>
-              </tr>
+          {users.map((userlist) => (
+              <Fragment>
+                {attendanceUserId === userlist._id ? (<AddAttendance key={userlist._id}  />
+                ) : (
+                  <AttendanceRow key={userlist._id} userlist={userlist} />)}
+              </Fragment>
             ))}
 
           </tbody>
